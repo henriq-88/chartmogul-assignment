@@ -22,14 +22,6 @@ _Table 1: A minimal example of what the database table **CUSTOMER** could look l
 
 _Table 2: A minimal example of what the database table **CUSTOMER_PAYMENT_EVENTS** could look like._
 
-## Functionality
-
-### Update Interal Database
-
-1. Insert record into database
-2. (if issuer == internal) Update external payment provider
-3. Updated integrated monitoring apps
-
 # Payment Provider Connectors
 
 ## Interface
@@ -81,7 +73,7 @@ The important thing to remember is that these are aggregated results, derived fr
 
 These are third party apps that want to listen to certain events (e.g. user cancallation failed, user churn). Similar to the payment providers, the monitoring apps need to have their data denormalized when being sent to, and normalized when data being retrieved from.
 
-## Example Providers
+## Example Monitoring Providers
 
 - Slack
 - Webhooks
