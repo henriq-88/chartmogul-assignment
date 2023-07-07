@@ -123,7 +123,7 @@ These are third party apps that want to listen to certain events (e.g. user canc
 1. Call internal GET advanced aggregated metrics endpoint
 2. Display metrics in UI in various charts and tables
 
-# Data Flow - TODO
+# Data Flow
 
 ## Display a Single Customer's Metrics
 
